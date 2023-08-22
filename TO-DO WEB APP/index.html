@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO WEB APP</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header Start Here -->
+    <header>
+      <div class="heading">
+        <h1>TO-DO LIST WEB APP</h1>
+      </div>
+    </header>
+    <!-- Header End Here -->
+
+    <!-- Containet Box Start -->
+    <div class="container-box">
+      
+      <!-- Left Box Start -->
+      <div class="left-box">
+        <input type="text" placeholder="title" id="Title-input"/>
+        <textarea
+          name=""
+          id="desc-input"
+          cols="30"
+          rows="10"
+          placeholder="Description" 
+        ></textarea>
+        <button type="button" id="btn">Save</button>
+      </div>
+      <!-- Left Box End -->
+
+      <!-- Right Box Start-->
+      <div class="right-box" id="result">
+        <div class="heading-box">
+          <span>Title</span>
+          <span>Description</span>
+          <span>Delete</span>
+        </div>
+        <div id="box">
+        </div>
+      </div>
+      <!-- right Box End -->
+    </div>
+    <!-- Contaier Box End -->
+    <script src="./script.js"></script>
+  </body>
+</html>
